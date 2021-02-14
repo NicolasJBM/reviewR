@@ -1,0 +1,47 @@
+Package: bibliogR
+Title: Reference Manager
+Version: 1.20
+Date: 2020-02-24
+Authors@R: 
+    person(given = "Nicolas",
+           family = "Mangin",
+           role = c("aut", "cre"),
+           email = "nicolas.jb.mangin@gmail.com",
+           comment = c(ORCID = "0000-0002-1597-9376"))
+Description: Facilitate literature reviews and the insertion of citations in rmarkdown documents.
+Encoding: UTF-8
+LazyData: true
+DataVersion: 0.1.20
+License: GPL-3 | file LICENSE
+Depends: R (>= 3.6)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
+Imports:
+  dplyr,
+  purrr,
+  readr,
+  readxl,
+  stringr,
+  tibble,
+  tidyr,
+  stringdist,
+  shiny,
+  shinythemes,
+  DT,
+  glue,
+  utils,
+  stats,
+  RefManageR,
+  stringi,
+  miniUI,
+  knitr,
+  rstudioapi,
+  WriteXLS,
+  rhandsontable,
+  pdftools,
+  tm,
+  wordcloud,
+  viridis
+Suggests:
+  buildR
